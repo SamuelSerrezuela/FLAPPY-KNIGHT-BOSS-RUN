@@ -1,0 +1,137 @@
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Proyecto_MonoGame_3Niveles.exe
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Proyecto_MonoGame_3Niveles.deps.json
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Proyecto_MonoGame_3Niveles.runtimeconfig.json
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Proyecto_MonoGame_3Niveles.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Proyecto_MonoGame_3Niveles.pdb
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\MonoGame.Framework.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\NVorbis.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.csproj.AssemblyReference.cache
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.GeneratedMSBuildEditorConfig.editorconfig
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.AssemblyInfoInputs.cache
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.AssemblyInfo.cs
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.csproj.CoreCompileInputs.cache
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.sourcelink.json
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto.38D881C0.Up2Date
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\refint\Proyecto_MonoGame_3Niveles.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.pdb
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\Proyecto_MonoGame_3Niveles.genruntimeconfig.cache
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\obj\Debug\net8.0\ref\Proyecto_MonoGame_3Niveles.dll
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\bola de nieve.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\boladenieve2.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\boladenieve3.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\boladenieve4.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\esqueleto malvado inactivo.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\esqueleto malvado movimiento derecha.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\esqueleto malvado movimiento izquierda.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\flor malvada\flores malvadas rework.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\halcon malvado\halcon malvado caminando.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\jefe infierno_\slime malvado jefe infierno inactivo.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\jefe infierno_\slime malvado jefe infierno lanzando proyectil.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\jefe infierno_\slime malvado jefe infierno saltando.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\mrfrosty copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\mrfrosty.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\mrfrosty3.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\mrfrosty5.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\muñecodenieve 1.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\muñecodenieve2.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\muñecodenieve3.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\muñecodenieve4.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\muñecodenieve5.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\muñecodenieve6.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\pixil-frame-0-19.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\pixil-frame-0-20.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\pixil-frame-0-22 copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\pixil-frame-0-23.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\pixil-frame-0-25.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\pixilart-sprite.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\prtotagonista\caminata_azul.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\prtotagonista\disparo protagoniasta azul.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\prtotagonista\disparo.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\prtotagonista\salto protagonista azul.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\roca 3 real.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\roca1.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\roca2.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\roca3.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 1.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 2.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 3.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 4.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 5.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 6.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\villano 7.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 1 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 1 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 1.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 10 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 10 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 10.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 11 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 11 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 11.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 12 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 12 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 12.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 13 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 13 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 13.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 14 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 14 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 14.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 15 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 15 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 15.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 16 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 16 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 16.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 17 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 17 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 17.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 18 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 18 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 18.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 19 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 19 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 19.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 2 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 2 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 2.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 3 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 3 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 3.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 4 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 4 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 4.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 5 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 5 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 5.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 6 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 6 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 6.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 7 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 7 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 7.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 8 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 8 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 8.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 9 - copia (2).png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 9 - copia.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti 9.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\yeti.png
+E:\flappy de gael\FLAPPY-KNIGHT-BOSS-RUN\bin\Debug\net8.0\Sprites\1 wordl\zorro malvado\zorro malvado caminando.png

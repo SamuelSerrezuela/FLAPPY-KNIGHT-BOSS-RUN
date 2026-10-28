@@ -6,6 +6,25 @@ namespace Juego
 {
     public class Jugador
     {
+        // --- Sprite ---
+        private Texture2D _sprite;
+        private int _frameW, _frameH;
+        private float _escala = 1f;
+        private const int CantidadFrames = 3;
+        private bool _caminando;
+
+        public void CargarSprite(GraphicsDevice graphicsDevice)
+        {
+            string ruta = Path.Combine(AppContext.BaseDirectory, "Sprites", "1 wordl", "prtotagonista", "caminata_azul.png");
+            using var stream = File.OpenRead(ruta);
+            _sprite = Texture2D.FromStream(graphicsDevice, stream);
+
+            _frameH = _sprite.Height;
+            _frameW = _sprite.Width / CantidadFrames; // 3 frames en una tira horizontal
+            _escala = 48f / _frameH;                  // misma altura que la hitbox
+        }
+
+        // --- Estado del jugador ---
         public Vector2 Posicion;
         public int Vida { get; private set; } = 10;
         public Rectangle Bounds => new Rectangle((int)Posicion.X, (int)Posicion.Y, 34, 48);
@@ -30,16 +49,20 @@ namespace Juego
             _tiempoInvulnerable -= delta;
             if (_tiempoInvulnerable < 0) _tiempoInvulnerable = 0;
 
+            _caminando = false;
+
             if (teclado.IsKeyDown(Keys.Left) || teclado.IsKeyDown(Keys.A))
             {
                 Posicion.X -= _velocidad * delta;
                 _direccion = -1;
+                _caminando = true;
             }
 
             if (teclado.IsKeyDown(Keys.Right) || teclado.IsKeyDown(Keys.D))
             {
                 Posicion.X += _velocidad * delta;
                 _direccion = 1;
+                _caminando = true;
             }
 
             if ((teclado.IsKeyDown(Keys.Space) || teclado.IsKeyDown(Keys.Up) ||
@@ -62,7 +85,7 @@ namespace Juego
 
             Posicion.X = MathHelper.Clamp(Posicion.X, 0, 926);
 
-            // Dispara al presionar J o el botón izquierdo del mouse.
+            // Dispara al presionar J.
             bool disparoNuevo = teclado.IsKeyDown(Keys.J) && anterior.IsKeyUp(Keys.J);
             if (disparoNuevo)
             {
@@ -89,22 +112,20 @@ namespace Juego
 
         public void Dibujar(SpriteBatch spriteBatch, Texture2D pixel)
         {
-            // Animación temporal hecha con formas: cambia el movimiento de las piernas.
-            // Luego se puede reemplazar por fotogramas de la imagen del protagonista.
             bool parpadea = _tiempoInvulnerable > 0 && ((int)(_tiempoAnimacion * 12) % 2 == 0);
             if (parpadea) return;
 
-            Color ropa = new Color(60, 150, 235);
-            Color piel = new Color(245, 190, 140);
-            int paso = (int)(_tiempoAnimacion * 12) % 2 == 0 ? 0 : 5;
+            // Quieto = primer frame; caminando = recorre los 3 frames.
+            int frame = _caminando ? (int)(_tiempoAnimacion * 8) % CantidadFrames : 0;
+            var origen = new Rectangle(frame * _frameW, 0, _frameW, _frameH);
 
-            spriteBatch.Draw(pixel, new Rectangle((int)Posicion.X + 9, (int)Posicion.Y, 16, 15), piel);
-            spriteBatch.Draw(pixel, new Rectangle((int)Posicion.X + 5, (int)Posicion.Y + 14, 24, 20), ropa);
-            spriteBatch.Draw(pixel, new Rectangle((int)Posicion.X + 3, (int)Posicion.Y + 34, 10, 14 + paso), Color.DarkSlateGray);
-            spriteBatch.Draw(pixel, new Rectangle((int)Posicion.X + 20, (int)Posicion.Y + 34, 10, 14 + (5 - paso)), Color.DarkSlateGray);
+            // Centra el sprite horizontalmente dentro de la hitbox.
+            float anchoDibujado = _frameW * _escala;
+            var destino = new Vector2(Posicion.X + (34 - anchoDibujado) / 2f, Posicion.Y);
 
-            int brazoX = _direccion == 1 ? (int)Posicion.X + 27 : (int)Posicion.X - 2;
-            spriteBatch.Draw(pixel, new Rectangle(brazoX, (int)Posicion.Y + 19, 9, 7), piel);
+            var efecto = _direccion == 1 ? SpriteEffects.None : SpriteEffects.FlipHorizontally;
+
+            spriteBatch.Draw(_sprite, destino, origen, Color.White, 0f, Vector2.Zero, _escala, efecto, 0f);
         }
     }
 }

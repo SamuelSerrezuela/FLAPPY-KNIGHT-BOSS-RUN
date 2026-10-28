@@ -51,6 +51,8 @@ namespace Juego
             // mientras se preparan las imágenes definitivas del juego.
             _pixel = new Texture2D(GraphicsDevice, 1, 1);
             _pixel.SetData(new[] { Color.White });
+            _jugador.CargarSprite(GraphicsDevice);
+            
         }
 
         private void CrearEnemigos()
@@ -93,7 +95,7 @@ namespace Juego
                 return;
             }
 
-            _jugador.Actualizar(teclado, _tecladoAnterior, delta);
+                        _jugador.Actualizar(teclado, _tecladoAnterior, delta);
 
             foreach (Proyectil proyectil in _jugador.Proyectiles)
                 proyectil.Actualizar(delta);
@@ -103,28 +105,26 @@ namespace Juego
             foreach (Enemigo enemigo in _enemigos)
                 enemigo.Actualizar(_jugador.Posicion, delta);
 
-            // Los proyectiles del jugador pueden golpear a los enemigos.
+            // Los proyectiles del jugador pueden golpear a enemigos y al jefe.
             foreach (Proyectil proyectil in _jugador.Proyectiles)
             {
-                if (proyectil.Activo)
-                {
-                    foreach (Enemigo enemigo in _enemigos)
-                    {
-                        if (enemigo.Vivo && proyectil.Bounds.Intersects(enemigo.Bounds))
-                        {
-                            enemigo.RecibirGolpe();
-                            proyectil.Activo = false;
-                            break;
-                        }
+                if (!proyectil.Activo) continue;
 
-                        if (_jefe != null && _jefe.Vivo &&
-                            proyectil.Bounds.Intersects(_jefe.Bounds))
-                        {
-                            _jefe.RecibirGolpe();
-                            proyectil.Activo = false;
-                            break;
-                        }
+                foreach (Enemigo enemigo in _enemigos)
+                {
+                    if (enemigo.Vivo && proyectil.Bounds.Intersects(enemigo.Bounds))
+                    {
+                        enemigo.RecibirGolpe();
+                        proyectil.Activo = false;
+                        break;
                     }
+                }
+
+                if (proyectil.Activo && _jefe != null && _jefe.Vivo &&
+                    proyectil.Bounds.Intersects(_jefe.Bounds))
+                {
+                    _jefe.RecibirGolpe();
+                    proyectil.Activo = false;
                 }
             }
 
@@ -178,6 +178,7 @@ namespace Juego
             _nivel = 1;
             _estado = "Jugando";
             _jugador = new Jugador(new Vector2(100, 390));
+            _jugador.CargarSprite(GraphicsDevice);
             CrearEnemigos();
         }
 
