@@ -1,0 +1,79 @@
+PROYECTO BASE - AVENTURA DE TRES NIVELES (MonoGame)
+
+IMPORTANTE
+----------
+Esta es una base funcional de mecánicas con gráficos provisionales dibujados
+con rectángulos. No incluye todavía tus imágenes reales ni animaciones hechas
+con sprites. La idea es comprobar primero el juego y luego reemplazar los
+gráficos provisionales por tus recursos.
+
+QUÉ INCLUYE
+-----------
+- Movimiento izquierda/derecha.
+- Salto y gravedad.
+- Disparo de proyectiles con J.
+- Enemigos que siguen al jugador.
+- Un jefe al terminar cada grupo de enemigos.
+- Tres niveles.
+- Barra de vida, derrota y final del juego.
+- Clases separadas para jugador, enemigos, jefe y proyectiles.
+
+CÓMO ABRIRLO
+------------
+1. Instala .NET 8 SDK y Visual Studio Code.
+2. Instala la extensión C# de Microsoft en VS Code.
+3. Descomprime la carpeta.
+4. Abre la carpeta Proyecto_MonoGame_3Niveles en VS Code.
+5. Abre Terminal > New Terminal.
+6. Ejecuta:
+      dotnet restore
+      dotnet run
+7. Si tu equipo no tiene .NET 8 o aparece un error de versión, no cambies
+   muchas cosas a ciegas: comparte el mensaje de error y ajustamos el proyecto.
+
+CONTROLES
+---------
+A / Flecha izquierda: moverse a la izquierda.
+D / Flecha derecha: moverse a la derecha.
+Espacio / W / Flecha arriba: saltar.
+J: disparar.
+Escape: cerrar.
+Enter: reiniciar si perdiste. Si ganaste, Enter cierra el juego.
+
+CÓMO SE ORGANIZA
+----------------
+Program.cs: inicia el juego.
+Game1.cs: ventana, ciclo principal, niveles y dibujo general.
+Jugador.cs: movimiento, salto, vida y disparos.
+Enemigo.cs: movimiento y vida de los enemigos normales.
+Jefe.cs: vida y movimiento del jefe.
+Proyectil.cs: movimiento y dibujo de cada disparo.
+
+RELACIÓN CON LA GUÍA DE CLASE
+-----------------------------
+Game1 hereda de Game. Se conservan Initialize, LoadContent, Update y Draw.
+GraphicsDeviceManager configura la ventana. SpriteBatch dibuja los elementos.
+GameTime se usa para mover objetos según el tiempo transcurrido.
+El proyecto usa clases separadas para que cada parte tenga una responsabilidad.
+
+IMÁGENES Y ANIMACIONES
+----------------------
+Cuando el juego base funcione, el siguiente paso es incorporar las imágenes
+reales por el Content Pipeline de MonoGame. Para animar al protagonista con
+una hoja de sprites, necesitamos saber el tamaño de cada fotograma y cómo
+están ordenados en la imagen. No inventes nombres de archivos ni dimensiones:
+usa las imágenes que ya tienes y comparte una captura o súbelas para adaptar
+Jugador.cs a sus medidas.
+
+LIMITACIONES DE ESTA PRIMERA BASE
+---------------------------------
+- Los gráficos son provisionales; no es todavía la versión visual final.
+- La colisión con el suelo está simplificada.
+- El jefe todavía no ataca con proyectiles.
+- El mensaje de victoria/derrota se representa con formas, sin texto, para no
+  requerir una fuente SpriteFont externa.
+- Antes de entregar, hay que probarlo en tu computadora y revisar posibles
+  diferencias de versión de MonoGame/.NET.
+
+No se puede garantizar una nota: la aceptación depende de la consigna completa
+y de que el proyecto se pruebe y puedas explicar cómo funciona.
